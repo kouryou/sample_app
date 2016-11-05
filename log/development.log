@@ -28,3 +28,36 @@ Started GET "/" for 127.0.0.1 at 2016-11-03 20:25:13 +0900
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.0.5/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
 Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-05 15:47:07 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.0.5/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-11-05 15:47:24 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 157ms (Views: 156.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-05 15:47:24 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-05 15:47:24 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-05 15:47:24 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-05 15:47:24 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-05 15:47:24 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-11-05 15:47:24 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-05 15:47:24 +0900
