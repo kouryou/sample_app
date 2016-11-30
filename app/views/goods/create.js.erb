@@ -1,0 +1,1 @@
+$("#good-form-<%= @micropost.id %>").html("<%= escape_javascript(render partial: 'goods/cancel_good', locals: { feed_item: @micropost } ) %>");

@@ -1,0 +1,5 @@
+<% if current_user.goods.find_by(micropost_id: feed_item.id) %>
+  <%= render 'goods/cancel_good', feed_item: feed_item %>
+<% else %>
+  <%= render 'goods/good', feed_item: feed_item %>
+<% end %>

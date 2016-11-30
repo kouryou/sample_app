@@ -1,0 +1,5 @@
+<%= form_for(current_user.goods.find_by(micropost_id: feed_item.id),
+             html: { method: :delete },
+             remote: true) do |f| %>
+  <%= f.submit "いいね！", class: "btn btn-mini btn-primary" %>
+<% end %>
