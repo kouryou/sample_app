@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Buzzler::Application.config.secret_key_base = '5529acb6ddab912fc3afbb6b5f8ab3d437b4f39e279ce0c3030cb646c6bb43796bd1e6e3b6d9aa2b7f3aabed5b2ea9b82b53a88457498fe846e00d4b05423d11'
+SampleApp::Application.config.secret_key_base = '5529acb6ddab912fc3afbb6b5f8ab3d437b4f39e279ce0c3030cb646c6bb43796bd1e6e3b6d9aa2b7f3aabed5b2ea9b82b53a88457498fe846e00d4b05423d11'

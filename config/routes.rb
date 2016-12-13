@@ -1,4 +1,4 @@
-Buzzler::Application.routes.draw do
+SampleApp::Application.routes.draw do
   resources :users do
     member do
       get :following, :followers
